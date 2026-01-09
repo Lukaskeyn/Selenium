@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 /*
-Этот клас описывает страницу авторизации.
+Этот класc описывает страницу авторизации.
  */
 public class LoginPage extends BasePage {
     private final By LOGIN_BTN = By.xpath("//*[@class ='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']");
