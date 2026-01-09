@@ -19,7 +19,4 @@ public class DashboardPage extends BasePage {
         return driver.findElement(ELEMENT_ADMIN).isDisplayed();
     }
 
-    public void adminPageClick() {
-        driver.findElement(ELEMENT_ADMIN).click();
-    }
 }
